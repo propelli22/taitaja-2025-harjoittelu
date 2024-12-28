@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h4, span {
+    color: rgb(173, 162, 162);
+    font-size: small;
+}
+
+body {
+    border: 3px;
+    border-style: solid;
+    border-color: #cc0099;
+}
+
+header {
+    background-color: #ffcccc;
+    text-align: center;
+}
+
+header nav {
+    background-color: #ff99ff;
+    text-align: left;
+}
+
+#main-container {
+    display: flex;
+}
+
+main {
+    width: 50%;
+    display: flex;
+}
+
+aside {
+    width: 50%;
+}
+
+article {
+    width: 50%;
+}
+
+ul {
+    border: 3px #ff99ff solid;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: #ff99ff 2px dotted;
+    padding: 5px;
+}
+
+#uusimmat, #vierailevat {
+    background-color: #ff99ff;
+}
+
+.vierasblogi1 {
+    display: flex;
+}
+
+.vierasblogi2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+}
+
+.saa {
+    background-color: white;
+    border: 2px #ff99ff solid;
+    width: -webkit-fill-available;
+}
+
+.saalampotila {
+    font-size: 25px;
+}
+
+.saatila1, .saatila2, .saatuuli1, .saatuuli2 {
+    text-align: left;
+}
+
+.saatila2, .saatuuli2 {
+    font-style: normal;
+}
+
+.piilomargin {
+    margin-right: 3px;
+}
